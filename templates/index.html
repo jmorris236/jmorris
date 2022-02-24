@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello World</h1>
+<p>This is my new website!</p>
+<p>My first name is {{first_name}}</p>
+
+<h3>Favorite Pizza:</h3>
+
+{% for topping in favorite_pizza %}
+    {{topping}}<br/>
+{% endfor %}
+<br>
+{{favorite_pizza.0}}
+</body>
+</html>
